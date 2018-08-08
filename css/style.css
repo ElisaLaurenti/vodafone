@@ -1,0 +1,84 @@
+body {
+    /*background-color: gainsboro;*/
+    background: url("../images/top.jpg");
+}
+
+h1 {
+    color: ghostwhite;
+    font-family: "High Tower Text";
+    font-size: 40px;
+}
+
+p  {
+    color: indianred;
+    font-family: Aparajita;
+}
+div {
+    color: indianred;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+@font-face {
+    font-family: helsinki;
+    src: url("../fonts/helsinki.ttf");
+}
+
+@font-face {
+    font-family: ostrich-regular;
+    src: url("../fonts/ostrich-regular.ttf");
+
+
+}
+
+body {
+    background-color: indianred ;
+}
+#page {
+    width: 400px;
+    margin: 0 auto;
+    background-color: lightpink;
+    padding: 6px;
+}
+
+#page div:first-of-type {
+    font-family: Ebrima;
+    font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+    color: white;
+    background-color: pink;
+    padding: 6px;
+    font-size: 20px;
+    font-family: helsinki;
+}
+.menu li {
+    display: inline;
+    padding: 6px;
+}
+
+
+
+a {
+    color: indianred;
+    text-decoration: none;
+    font-size: 22px;
+}
+a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+
+@media (max-width: 774px)
+{
+    #page
+    {
+        width: 100%;
+    }
+
+}
